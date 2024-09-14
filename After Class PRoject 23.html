@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var st = {
+            name:"Hanzla",
+            age:"11",
+            class:"VI - C",
+            RollNo:"15",
+        }
+
+        var fruits = ["Mango" , "Banana" , "Apple" , "Water Melon" , "Orange"]
+         
+        document.getElementById("p1").innerHTML =  "Student Name: " + st.name + "<br>" ;
+        document.getElementById("p2").innerHTML = "Fav fruit is :  " + fruits[0];
+        document.getElementById("p3").innerHTML = "joining :  " +fruits.join ("/");
+        fruits.pop()
+        document.getElementById("p4").innerHTML = "poping :  " + fruits;
+
+
+    </script>
+</body>
+</html>
